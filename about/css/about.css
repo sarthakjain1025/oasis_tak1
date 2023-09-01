@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+ body{
+    background: rgba(0, 0, 0, 0.8) url('../aboutBg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+ }
+ 
+    .logo{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.logo img{
+    width: 39%;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.top{
+    background-color: rgb(0 255 166 / 7%);
+    padding: 10px;
+}
+.nav-list{
+    width: 70%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+
+list-style: none;
+text-decoration: none;
+padding: 26px 30px;
+cursor: pointer;
+
+}
+
+.nav-list li a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+
+}
+
+.nav-list li a:hover{
+    color: darkblue;
+}
+.rightnav{
+    /* background-color: black; */
+    width: 30%;
+    text-align: right; 
+    padding-right: 5px;
+    margin-right: 15px;
+   
+}
+.rightnav button{
+    padding:5px;
+}
+#Search{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 18px;
+    font-size: 17px;
+    margin-right: 5px;
+}
+.about_sec{
+    height: 250px;
+    color: white;
+    display: flex;
+    
+}
+.award img{
+    height: 200px;
+    margin-left: 58px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.head{
+    margin-left: 77px;
+    font-size: large;
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+.text{
+    padding: 60px;
+    text-align: justify;
+    font-family: cursive;
+    color: white;
+}
+.about_sec_left{
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.para{
+    text-align: justify;
+    font-family: cursive;
+    color: white;
+    padding: 50px 178px 0px 50px;
+
+    
+}
+.prize img{
+    height: 200px;
+    margin-right: 196px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.head2{
+    margin-left: 77px;
+    font-size: large;
+    color: white;
+    margin-top: 70px;
+}
+.prize img
